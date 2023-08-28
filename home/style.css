@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --warna-background: #6a6a6a;
+    --warna-font: #006eff;;
+    --warna-font-putih : #F0F5F9;
+    --warna-background-card: #C9D6DF;
+}
+::-webkit-scrollbar {
+    width: 10px; /* Lebar scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Warna latar belakang track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Warna thumb scrollbar */
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.navbar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    z-index: 2; 
+}
+nav.navbar div.navbar-logo {
+    width: 4%;
+    position: relative;
+    top: 2%;
+    margin-left: 2%;
+    margin-right: 20px;
+    z-index: 2; 
+}
+nav.navbar div.navbar-logo img{
+    width: 90%;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+div.nav-title{
+    width: 1000px;
+    text-align: center;
+}
+div.nav-title h1{
+    display: inline;
+    color: var(--warna-font-putih);
+}
+nav.navbar ul.navbar-items{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Menengahkan elemen secara horizontal */
+    align-items: center; /* Menengahkan elemen secara vertikal */
+    position: relative;
+   
+}
+nav.navbar ul.navbar-items li{
+    font-family: "Montserrat", "Futura", "Century Gothic", sans-serif;
+    display: inline;
+    font-size: 20px;
+    margin-right: 40px;
+}
+nav.navbar ul.navbar-items li:last-child{
+    margin-left: auto;
+    margin-right: 80px;
+}
+a{
+    text-decoration: none;
+    color: var(--warna-font-putih);
+}
+a:hover{
+    text-decoration: underline;
+}
+.disabled{
+    pointer-events: none;
+    color: #afb7bd;
+    text-decoration: none; 
+    cursor: default;
+}
+div.content{
+    width: 100%;
+    height: 100vh;
+
+}
+.disabled-card{
+    display: none;
+    visibility: hidden;
+}
+.content .notifikasi{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    position:  fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .notifikasi .card-notifikasi{
+    width: 24%;
+    height: 320px;
+    background-color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.content .notifikasi .card-notifikasi .card-notif-body{
+    width: 50%;
+    height: 230px;
+    color: var(--warna-font-putih);
+    text-align: center;
+}
+.content .notifikasi .card-notifikasi .card-notif-body button{
+    width: 100%;
+    height: 36px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    margin-top: 155px;
+}
+
+/* Main content */
+div.main-content{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+div.main-content div.title{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+div.main-content div.title h1{
+    color: white;
+    width: 450px;
+    height: 100px;
+    padding: 20px;
+    background-color: black;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+/* Hero section */
+div.content div.hero{
+    width: 100%;
+    height: 650px;  
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+div.content div.hero div.description{
+    width: 26%;
+    height: 250px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+}
+div.content div.hero div.description h1{
+   color: white;
+}
+div.content div.hero div.description p{
+    margin-top: 20px;
+    color: white;
+}
+div.content div.hero div.description button{
+    width: 20%;
+    height: 30px;
+    margin-top: 35px;
+    background-color: #ff983f;
+    border: none;
+    color: var(--warna-font-putih);
+    border-radius: 25px;
+}
+div.content div.hero div.description button:hover{
+    background-color: #ff8922;
+}
+div.content div.hero div.description button:active{
+    background-color: #ff7700;
+}
+div.content div.hero img {
+    width: 20%;
+    height: 320px;  
+    border-radius: 50%;
+    border: 3px solid black;
+}
+div.content div.main-content div.title{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+div.content div.main-content div.title h1{
+    font-weight: 300;
+
+}
+
+/* Card section */
+div.card-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+div.card{
+    width: 24%;
+    margin: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  
+}
+div.card div.card-title img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+div.card div.card-body{
+    padding: 7px;
+    background-color: black;
+    color: var(--warna-font-putih);
+    height: 200px;
+    border-radius: 20px;
+    padding: 13px;
+}
+div.card div.card-body h2{
+    margin-bottom: 13px;
+}
+div.card div.card-body span{
+    font-size: 28px;
+    font-weight: bold;
+}
+div.card div.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+div.card div.card-footer button{
+    width: 30%;
+    height: 35px;
+    margin-top: 5px;
+    background-color: #ff983f;
+    outline: none;
+    border: none;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3); */
+    color: var(--warna-font-putih);
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+div.card div.card-footer button:hover{
+    background-color: #ff8922;
+}
+div.card div.card-footer button:hover:active{
+    background-color: #ff7700;
+}
+.content {
+    flex: 1; /* Memungkinkan konten untuk mengisi ruang tersedia (menjaga footer di bawah) */
+  }
+  
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    /* Gaya lain yang sesuai untuk footer */
+    position: relative;
+    z-index: 0;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+  }
+
+  

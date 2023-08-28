@@ -1,0 +1,95 @@
+body{
+    background-color: #ffffff;
+    overflow-y: hidden;
+}
+div.container{
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container div.form-section{
+    width: 60%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+
+}
+div.container div.form-section form{
+    height: 150px;
+}
+div.container div.form-section form div.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+div.container div.form-section form div.input-box label{
+    color: white;
+    font-family: "Montserrat", "Futura", "Century Gothic", sans-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+div.container div.form-section form div.input-box input{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px; 
+    box-sizing: border-box; 
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+}
+div.container div.form-section form div.input-box input:hover{
+    border: 1px solid black;
+}
+div.container div.form-section form div.input-box input:active{
+    outline: 2px solid rgb(133, 133, 133);
+}
+div.container div.form-section form button{
+    width: 36%;
+    height: 32px;
+    margin-top: 5px;
+    color: white;
+    font-family: "Montserrat", "Futura", "Century Gothic", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 18px;
+    background-color: #ffbc48;
+}
+div.container div.form-section form button:hover{
+    background-color: #ffad20;  
+}
+div.container div.form-section form button:active{
+    background-color: #ffa200;
+}
+div.container div.form-section div.hero {
+    position: absolute;
+    top: -50px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+div.container div.form-section div.hero img{ 
+    width: 140px; 
+    height: 130px; 
+    border: 1px solid black;
+    border-radius: 50%; 
+}
+p.none{
+    visibility: hidden;
+    display: none;
+}
+p.on{
+    font-size: 14px;
+    display: inline;
+    color: red;
+}
