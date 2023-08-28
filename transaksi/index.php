@@ -1,10 +1,16 @@
 <?php
-     $datapaket = [                  
-            ["Samsung - Galaxy M33","Warna Brown/Grey - Memory 8 GB 128 GB",1000000 ,"../img/m33.jpg"],
-            ["Samsung - Galaxy S22+","Warna Grey - Memory 8 GB 128 GB",2600000,"../img/s22.jpg"],
-            ["Samsung - Galaxy A14 5G","Warna White - Memory 6 GB 128 GB",7000000,"../img/a14.jpg"], 
-            ["Samsung - Galaxy M14 5G","Warna Black - Memory 4 GB 128 GB",6000000,"../img/m14.jpeg"]  
-    ];
+      $datapaket = array(
+          array("Buku Matematika", "Buku pelajaran matematika untuk siswa sekolah", 50000, "https://media.istockphoto.com/id/1198644091/id/foto/tumpukan-buku-di-depan-papan-tulis.jpg?s=2048x2048&w=is&k=20&c=KwGk9NSB651FH-EKyob6gyo0IJH0veLYQEscaq_GOlE="),
+          array("Pensil 2B", "Pensil dengan kelas kegelapan 2B", 1000, "https://media.istockphoto.com/id/136201120/id/foto/pensil-hitam-dengan-penghapus.jpg?s=2048x2048&w=is&k=20&c=X_d6cN552jDHeGWLt4AuqB7KmUBIQ6mzjIioflprlkk="),
+          array("Seragam Sekolah", "Seragam sekolah dengan warna biru", 150000, "https://media.istockphoto.com/id/648946186/id/foto/remaja-berjalan-ke-pelajaran-berikutnya-di-sekolah.jpg?s=2048x2048&w=is&k=20&c=zyGCQGaSURbn9_xNB8QuyeC950orsLrnehtuykSSgvQ="),
+          array("Paket Alat Tulis", "Paket berisi pensil, penghapus, dan pulpen", 25000, "https://media.istockphoto.com/id/520787907/id/foto/pemegang-pensil-dengan-konten.jpg?s=1024x1024&w=is&k=20&c=yyJOZQFEpyiTP0-XazByyt2n_EXDanflLI83ArRVSew="),
+          array("Buku Bahasa Inggris", "Buku pelajaran bahasa Inggris untuk siswa sekolah", 55000, "https://media.istockphoto.com/id/1000158066/id/foto/pelajari-konsep-bahasa-inggris-buku-kamus-bahasa-inggris-atau-textbok-dengan-bendera-britania.jpg?s=2048x2048&w=is&k=20&c=3ONIv-JCdeBU4aeguJqvZHD3qjRupofz3ob0MAXPQ6M="),
+          array("Pulpen Hitam", "Pulpen tinta hitam untuk menulis", 2000, "https://media.istockphoto.com/id/1304186549/id/vektor/otomatis-musim-semi-ballpoint-pena-dalam-kasus-hitam-ilustrasi-vektor.jpg?s=2048x2048&w=is&k=20&c=AZ9UKn48srEpl0jaqj3eoaQEzowXct3aIy_yNMT2ATQ="),
+          array("Tas Sekolah", "Tas sekolah dengan banyak kantong", 200000, "https://media.istockphoto.com/id/643317446/id/foto/tas-sekolah-abu-abu-terisolasi-di-gackground-putih.jpg?s=2048x2048&w=is&k=20&c=Gq7whoLz8yWScKfYASshxQZe5IniykqiB1Yzy8gHFW4="),
+          array("Buku IPA", "Buku pelajaran ilmu pengetahuan alam", 48000, "https://media.istockphoto.com/id/858000224/id/foto/menu-konsep-iklan-pub.jpg?s=2048x2048&w=is&k=20&c=2ay2DWSSo4r4K2Im4sk45MdrVhhsR-ReFDoe4kqUrxo="),
+          array("Gunting", "Gunting untuk keperluan sekolah", 3000, "https://media.istockphoto.com/id/1164059937/id/foto/alat-penata-rambut-profesional.jpg?s=2048x2048&w=is&k=20&c=D0IdMBLItVcIGAs6R6jidZlpSH9KYIHIdYo7RklVjws="),
+          array("Topi Sekolah", "Topi dengan logo sekolah", 12000, "https://media.istockphoto.com/id/465397422/id/foto/topi-kelulusan-hitam-di-atas-putih.jpg?s=2048x2048&w=is&k=20&c=RmXeNmEwjzyWfy16o54jy4Q8TB7sR9isivtVvMpU6Y4=")
+      );
 
     $id = $_GET['id'];
     
