@@ -32,7 +32,7 @@
         <ul class="navbar-items">
             <li><a href="../home/index.php" >Home</a></li>
             <li><a href="../transaksi/index.php" class="disabled">Transaksi</a></li>
-            <li><div class="nav-title"><h1>TOKO HP</h1></div></li>
+            <li><div class="nav-title"><h1>ISFI MART</h1></div></li>
             <li><a href="../index.php">Logout</a></li>
         </ul>
     </nav>

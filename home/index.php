@@ -32,7 +32,7 @@
         </div>
         <div class="hero">
             <div class="description">
-                <h1>Selamat datang di Toko Handphone!</h1>
+                <h1>Selamat datang di ISFI MART</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit, atque molestiae maxime ea deserunt aperiam accusantium quasi ullam</p>
                 <button type="button" onclick="window.location.href = '../../www.smk-isfi.sch.id/'">Kunjungi</button>
             </div>
