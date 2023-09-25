@@ -98,8 +98,11 @@
                         <label for="statusPembayaran">Status Pembayaran :</label>
                         <span class="statusBill"></span>
                     </div>
-                    <button type="button" class="buttonKembalian disabled-button" disabled>Hitung hitung kembailan</button>
-                    <button type="button" class="buttonSimpan disabled-button" disabled>Simpan transaksi</button>
+                    <div class="btn-section">
+                        <button type="button" class="buttonKembalian disabled-button" disabled>Hitung hitung kembailan</button>
+                        <button type="button" class="buttonSimpan disabled-button" disabled>Simpan transaksi</button>
+                    </div>
+                    
                 </form>
             </div>
         </div>
