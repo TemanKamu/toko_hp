@@ -32,7 +32,7 @@
         <ul class="navbar-items">
             <li><a href="../home/index.php" >Home</a></li>
             <li><a href="../transaksi/index.php" class="disabled">Transaksi</a></li>
-            <li><div class="nav-title"><h1>TOKO HP</h1></div></li>
+            <li><div class="nav-title"><h1>ISFI MART</h1></div></li>
             <li><a href="../index.php">Logout</a></li>
         </ul>
     </nav>
@@ -98,8 +98,11 @@
                         <label for="statusPembayaran">Status Pembayaran :</label>
                         <span class="statusBill"></span>
                     </div>
-                    <button type="button" class="buttonKembalian disabled-button" disabled>Hitung hitung kembailan</button>
-                    <button type="button" class="buttonSimpan disabled-button" disabled>Simpan transaksi</button>
+                    <div class="btn-section">
+                        <button type="button" class="buttonKembalian disabled-button" disabled>Hitung hitung kembailan</button>
+                        <button type="button" class="buttonSimpan disabled-button" disabled>Simpan transaksi</button>
+                    </div>
+                    
                 </form>
             </div>
         </div>

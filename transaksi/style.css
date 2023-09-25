@@ -258,3 +258,6 @@ div.content{
   cursor: not-allowed; /* Contoh: mengubah kursor menjadi tanda silang */
   /* Anda dapat menambahkan gaya lain sesuai kebutuhan */
 }
+.btn-section{
+    display: flex;
+}

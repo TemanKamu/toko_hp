@@ -47,7 +47,7 @@
                     p.forEach((value) => {
                         value.classList.add("none");
                     })
-                    if(username.value == 'usersamsung' || password.value == 'samsung'){
+                    if(username.value == 'lutfiAgisna' && password.value == '08'){
                         // Simpan URL dari halaman tujuan setelah submit
                         var targetURL = 'home/index.php';
                         // Arahkan ke halaman tujuan setelah submit
@@ -60,7 +60,7 @@
                     p[0].classList.add("on")
 
                     p[1].classList.remove("on");
-                    p[1].classList.add("none")
+                    p[1].classList.add("none");
                 }else if(username.value !== '' && password.value == ''){
                     p[1].classList.remove('none');
                     p[1].classList.add('on');
